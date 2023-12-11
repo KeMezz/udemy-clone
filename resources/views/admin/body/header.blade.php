@@ -74,7 +74,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/slack.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/slack.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -87,7 +88,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/behance.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/behance.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -193,7 +195,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/spotify.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/spotify.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -206,7 +209,23 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/google-photos.png" width="30"
+                                                    <img
+                                                        src="{{ asset('backend/assets/images/app/google-photos.png') }}"
+                                                        width="30"
+                                                        alt="">
+                                                </div>
+                                                <div class="app-name">
+                                                    <p class="mb-0 mt-1">Photos</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="javascript:;">
+                                            <div class="app-box text-center">
+                                                <div class="app-icon">
+                                                    <img src="{{ asset('backend/assets/images/app/pinterest.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -219,20 +238,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/pinterest.png" width="30"
-                                                         alt="">
-                                                </div>
-                                                <div class="app-name">
-                                                    <p class="mb-0 mt-1">Photos</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col">
-                                        <a href="javascript:;">
-                                            <div class="app-box text-center">
-                                                <div class="app-icon">
-                                                    <img src="assets/images/app/linkedin.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/linkedin.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -245,7 +252,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/dribble.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/dribble.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -258,7 +266,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/youtube.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/youtube.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -271,7 +280,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/google.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/google.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -284,7 +294,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/envato.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/envato.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -297,7 +308,8 @@
                                         <a href="javascript:;">
                                             <div class="app-box text-center">
                                                 <div class="app-icon">
-                                                    <img src="assets/images/app/safari.png" width="30"
+                                                    <img src="{{ asset('backend/assets/images/app/safari.png') }}"
+                                                         width="30"
                                                          alt="">
                                                 </div>
                                                 <div class="app-name">
@@ -329,7 +341,8 @@
                                 <a class="dropdown-item" href="javascript:;">
                                     <div class="d-flex align-items-center">
                                         <div class="user-online">
-                                            <img src="assets/images/avatars/avatar-1.png" class="msg-avatar"
+                                            <img src="{{ asset('backend/assets/images/avatars/avatar-1.png') }}"
+                                                 class="msg-avatar"
                                                  alt="user avatar">
                                         </div>
                                         <div class="flex-grow-1">
@@ -353,7 +366,8 @@
                                 <a class="dropdown-item" href="javascript:;">
                                     <div class="d-flex align-items-center">
                                         <div class="user-online">
-                                            <img src="assets/images/avatars/avatar-2.png" class="msg-avatar"
+                                            <img src="{{ asset('backend/assets/images/avatars/avatar-2.png') }}"
+                                                 class="msg-avatar"
                                                  alt="user avatar">
                                         </div>
                                         <div class="flex-grow-1">
@@ -366,7 +380,7 @@
                                 <a class="dropdown-item" href="javascript:;">
                                     <div class="d-flex align-items-center">
                                         <div class="notify bg-light-success text-success">
-                                            <img src="assets/images/app/outlook.png" width="25"
+                                            <img src="{{ asset('backend/assets/images/app/outlook.png') }}" width="25"
                                                  alt="user avatar">
                                         </div>
                                         <div class="flex-grow-1">
@@ -649,7 +663,8 @@
             <div class="user-box dropdown px-3">
                 <a class="d-flex align-items-center nav-link dropdown-toggle gap-3 dropdown-toggle-nocaret"
                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="assets/images/avatars/avatar-2.png" class="user-img" alt="user avatar">
+                    <img src="{{ asset('backend/assets/images/avatars/avatar-2.png') }}" class="user-img"
+                         alt="user avatar">
                     <div class="user-info">
                         <p class="user-name mb-0">Pauline Seitz</p>
                         <p class="designattion mb-0">Web Designer</p>
@@ -674,8 +689,10 @@
                     <li>
                         <div class="dropdown-divider mb-0"></div>
                     </li>
-                    <li><a class="dropdown-item d-flex align-items-center" href="javascript:;"><i
-                                class="bx bx-log-out-circle"></i><span>Logout</span></a>
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="{{ route('admin.logout') }}">
+                            <i class="bx bx-log-out-circle"></i><span>Logout</span>
+                        </a>
                     </li>
                 </ul>
             </div>
