@@ -20,7 +20,7 @@ class AdminController extends Controller
 
         $request->session()->regenerateToken();
 
-        return view('admin.index');
+        return redirect('/admin/login');
     }
 
     public function AdminLogin()
