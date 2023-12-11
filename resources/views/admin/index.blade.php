@@ -78,7 +78,8 @@
                                 <h6 class="mb-0">Sales Overview</h6>
                             </div>
                             <div class="dropdown ms-auto">
-                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i
+                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#"
+                                   data-bs-toggle="dropdown"><i
                                         class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -111,7 +112,8 @@
                             <div class="p-3">
                                 <h5 class="mb-0">24.15M</h5>
                                 <small class="mb-0">Overall Visitor <span> <i
-                                            class="bx bx-up-arrow-alt align-middle"></i> 2.43%</span></small>
+                                            class="bx bx-up-arrow-alt align-middle"></i>
+                                        2.43%</span></small>
                             </div>
                         </div>
                         <div class="col">
@@ -124,7 +126,8 @@
                         <div class="col">
                             <div class="p-3">
                                 <h5 class="mb-0">639.82</h5>
-                                <small class="mb-0">Pages/Visit <span> <i class="bx bx-up-arrow-alt align-middle"></i> 5.62%</span></small>
+                                <small class="mb-0">Pages/Visit <span> <i class="bx bx-up-arrow-alt align-middle"></i>
+                                        5.62%</span></small>
                             </div>
                         </div>
                     </div>
@@ -138,7 +141,8 @@
                                 <h6 class="mb-0">Trending Products</h6>
                             </div>
                             <div class="dropdown ms-auto">
-                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i
+                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#"
+                                   data-bs-toggle="dropdown"><i
                                         class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -161,7 +165,8 @@
                         </div>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex bg-transparent justify-content-between align-items-center border-top">
+                        <li
+                            class="list-group-item d-flex bg-transparent justify-content-between align-items-center border-top">
                             Jeans <span class="badge bg-success rounded-pill">25</span>
                         </li>
                         <li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">
@@ -219,7 +224,8 @@
                         <tbody>
                         <tr>
                             <td>Iphone 5</td>
-                            <td><img src="assets/images/products/01.png" class="product-img-2" alt="product img"></td>
+                            <td><img src="assets/images/products/01.png" class="product-img-2" alt="product img">
+                            </td>
                             <td>#9405822</td>
                             <td><span class="badge bg-gradient-quepal text-white shadow-sm w-100">Paid</span></td>
                             <td>$1250.00</td>
@@ -234,7 +240,8 @@
 
                         <tr>
                             <td>Earphone GL</td>
-                            <td><img src="assets/images/products/02.png" class="product-img-2" alt="product img"></td>
+                            <td><img src="assets/images/products/02.png" class="product-img-2" alt="product img">
+                            </td>
                             <td>#8304620</td>
                             <td><span class="badge bg-gradient-blooker text-white shadow-sm w-100">Pending</span></td>
                             <td>$1500.00</td>
@@ -249,7 +256,8 @@
 
                         <tr>
                             <td>HD Hand Camera</td>
-                            <td><img src="assets/images/products/03.png" class="product-img-2" alt="product img"></td>
+                            <td><img src="assets/images/products/03.png" class="product-img-2" alt="product img">
+                            </td>
                             <td>#4736890</td>
                             <td><span class="badge bg-gradient-bloody text-white shadow-sm w-100">Failed</span></td>
                             <td>$1400.00</td>
@@ -264,7 +272,8 @@
 
                         <tr>
                             <td>Clasic Shoes</td>
-                            <td><img src="assets/images/products/04.png" class="product-img-2" alt="product img"></td>
+                            <td><img src="assets/images/products/04.png" class="product-img-2" alt="product img">
+                            </td>
                             <td>#8543765</td>
                             <td><span class="badge bg-gradient-quepal text-white shadow-sm w-100">Paid</span></td>
                             <td>$1200.00</td>
@@ -278,7 +287,8 @@
                         </tr>
                         <tr>
                             <td>Sitting Chair</td>
-                            <td><img src="assets/images/products/06.png" class="product-img-2" alt="product img"></td>
+                            <td><img src="assets/images/products/06.png" class="product-img-2" alt="product img">
+                            </td>
                             <td>#9629240</td>
                             <td><span class="badge bg-gradient-blooker text-white shadow-sm w-100">Pending</span></td>
                             <td>$1500.00</td>
@@ -292,7 +302,8 @@
                         </tr>
                         <tr>
                             <td>Hand Watch</td>
-                            <td><img src="assets/images/products/05.png" class="product-img-2" alt="product img"></td>
+                            <td><img src="assets/images/products/05.png" class="product-img-2" alt="product img">
+                            </td>
                             <td>#8506790</td>
                             <td><span class="badge bg-gradient-bloody text-white shadow-sm w-100">Failed</span></td>
                             <td>$1800.00</td>
@@ -320,7 +331,8 @@
                                 <h6 class="mb-0">Recent Orders</h6>
                             </div>
                             <div class="dropdown ms-auto">
-                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i
+                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#"
+                                   data-bs-toggle="dropdown"><i
                                         class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -485,7 +497,8 @@
                                 <h6 class="mb-0">Orders Summary</h6>
                             </div>
                             <div class="dropdown ms-auto">
-                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i
+                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#"
+                                   data-bs-toggle="dropdown"><i
                                         class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -508,7 +521,8 @@
                         </div>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex bg-transparent justify-content-between align-items-center border-top">
+                        <li
+                            class="list-group-item d-flex bg-transparent justify-content-between align-items-center border-top">
                             Completed <span class="badge bg-gradient-quepal rounded-pill">25</span>
                         </li>
                         <li class="list-group-item d-flex bg-transparent justify-content-between align-items-center">
@@ -528,7 +542,8 @@
                                 <h6 class="mb-0">Top Selling Categories</h6>
                             </div>
                             <div class="dropdown ms-auto">
-                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i
+                                <a class="dropdown-toggle dropdown-toggle-nocaret" href="#"
+                                   data-bs-toggle="dropdown"><i
                                         class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
                                 </a>
                                 <ul class="dropdown-menu">
