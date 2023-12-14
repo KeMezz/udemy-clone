@@ -111,7 +111,7 @@
                                         <h6 class="mb-0">Profile Image</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="file" class="form-control" name="photo"/>
+                                        <input type="file" class="form-control" name="photo" id="image"/>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
@@ -119,6 +119,7 @@
                                     </div>
                                     <div class="col-sm-9 text-secondary">
                                         <img
+                                            id="showImage"
                                             src="{{ (!empty($profileData->photo)) ? url('upload/admin_images/'.$profileData->photo) : url('/upload/no_image.jpg') }}"
                                             alt="Admin"
                                             class="rounded-circle p-1 bg-primary" width="80">
@@ -137,4 +138,18 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        const image = document.getElementById('image');
+        const showImage = document.getElementById('showImage');
+       
+        document.addEventListener('DOMContentLoaded', () => {
+            image.addEventListener('change', (e) => {
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    showImage.src = event.target.result;
+                };
+                reader.readAsDataURL(e.target.files[0]);
+            })
+        })
+    </script>
 @endsection('admin')
