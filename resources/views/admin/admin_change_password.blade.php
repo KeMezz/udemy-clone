@@ -60,8 +60,7 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="card">
-                            <form method="POST" action="{{ route("admin.profile.store") }}"
-                                  enctype="multipart/form-data">
+                            <form method="POST" action="{{ route("admin.password.update") }}">
                                 @csrf
                                 <div class="card-body">
                                     <div class="row mb-3">
@@ -83,9 +82,9 @@
                                             <h6 class="mb-0">New Password</h6>
                                         </div>
                                         <div class="col-sm-9 text-secondary">
-                                            <input type="password" name="old_password"
+                                            <input type="password" name="new_password"
                                                    class="form-control @error('new_password') is-invalid @enderror"
-                                                   id="old_password"/>
+                                                   id="new_password"/>
                                             @error('new_password')
                                             <span class="text-danger">{{ $message }}</span>
                                             @enderror
@@ -96,7 +95,8 @@
                                             <h6 class="mb-0">Confirm New Password</h6>
                                         </div>
                                         <div class="col-sm-9 text-secondary">
-                                            <input type="password" name="old_password" class="form-control"/>
+                                            <input type="password" name="new_password_confirmation"
+                                                   class="form-control"/>
                                         </div>
                                     </div>
                                     <div class="row">
