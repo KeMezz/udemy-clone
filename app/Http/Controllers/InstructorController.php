@@ -20,6 +20,11 @@ class InstructorController extends Controller
 
         $request->session()->regenerateToken();
 
-        return redirect('/admin/login');
+        return redirect('/instructor/login');
+    }
+
+    public function InstructorLogin()
+    {
+        return view('instructor.instructor_login');
     }
 }

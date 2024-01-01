@@ -41,7 +41,6 @@ Route::middleware(['auth', 'roles:admin'])->group(function () {
     Route::get('/admin/change/password', [AdminController::class, 'AdminChangePassword'])->name('admin.change.password');
     Route::post('/admin/password/update', [AdminController::class, 'AdminPasswordUpdate'])->name('admin.password.update');
 }); // End Admin Group Middleware
-
 Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
 
 // Instructor Group Middleware
@@ -49,3 +48,4 @@ Route::middleware(['auth', 'roles:instructor'])->group(function () {
     Route::get('/instructor/dashboard', [InstructorController::class, 'InstructorDashboard'])->name('instructor.dashboard');
     Route::get('/instructor/logout', [InstructorController::class, 'InstructorLogout'])->name('instructor.logout');
 }); // End Instructor Group Middleware
+Route::get('/instructor/login', [InstructorController::class, 'InstructorLogin'])->name('instructor.login');
