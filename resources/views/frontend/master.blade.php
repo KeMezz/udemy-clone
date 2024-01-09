@@ -244,7 +244,7 @@
 
 <!-- template js files -->
 <script src="{{ asset('frontend/js/jquery-3.4.1.min.js') }}"></script>
-<script src="{{ asset('fronend/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('frontend/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('frontend/js/bootstrap-select.min.js') }}"></script>
 <script src="{{ asset('frontend/js/owl.carousel.min.js') }}"></script>
 <script src="{{ asset('frontend/js/isotope.js') }}"></script>
