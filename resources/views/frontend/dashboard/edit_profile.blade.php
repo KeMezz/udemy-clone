@@ -22,7 +22,8 @@
             <h3 class="fs-17 font-weight-semi-bold pb-4">Edit Profile</h3>
 
 
-            <form method="post" action="" enctype="multipart/form-data" class="row pt-40px">
+            <form method="POST" action="{{ route('user.profile.update') }}" enctype="multipart/form-data"
+                  class="row pt-40px">
                 @csrf
 
                 <div class="media media-card align-items-center">
