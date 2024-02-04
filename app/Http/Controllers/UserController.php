@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
@@ -19,6 +20,17 @@ class UserController extends Controller
         $profileData = User::find($id);
 
         return view('frontend.dashboard.edit_profile', compact('profileData'));
+    } // End Method
+
+    public function UserLogout(Request $request)
+    {
+        Auth::guard('web')->logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/login');
     } // End Method
 
     public function UserProfileUpdate(Request $request)
