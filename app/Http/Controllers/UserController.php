@@ -60,4 +60,9 @@ class UserController extends Controller
 
         return redirect()->back()->with($notification);
     }
+
+    public function UserChangePassword()
+    {
+        return view('frontend.dashboard.change_password');
+    }
 }
